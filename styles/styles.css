@@ -1,0 +1,68 @@
+:root {
+/* Fonts */
+ --main-font: "Roboto Regular", sans-serif;
+--secondary-font: "Raleway Bold", sans-serif;
+/* Text colors */
+--main-txt-cl: #212121;
+--light-txt-cl: #ffffff;
+--accent-txt-cl: #2196F3;
+/* Background colors */
+--accent-bg-cl: #2196F3;
+/* Other */
+}
+
+.page {
+    font-family: --main-font;
+    font-size: 14px;
+    font-weight: ;
+    color: var(--main-txt-cl);
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
+
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+}
+
+.header {
+    background-color: #2F303A;
+}
+
+.header .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+
+    color: var(--light-txt-cl);
+}
+
+.logo {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header .logo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+
+    color: var(--light-txt-cl);
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: var(--accent-txt-cl);
+}
