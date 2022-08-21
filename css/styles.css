@@ -114,6 +114,7 @@ color: var(--blue-txt-logo);
 
 .footer {
     background-color: #2F303A;
+    color: #FFFFFF;
 }
 
 .link.active {
