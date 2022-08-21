@@ -1,0 +1,123 @@
+:root {
+/* Fonts */
+--main-font: "Roboto Regular", sans-serif;
+--secondary-font: "Raleway Bold", sans-serif;
+/* Text colors */
+--main-txt-cl: #212121;
+--light-txt-cl: #ffffff;
+--accent-txt-cl: #2196F3;
+--black-txt-logo: #000000;
+--blue-txt-logo: #2196F3;
+--active-txt: #2196F3;
+/* Background colors */
+--accent-bg-cl: #2196F3;
+/* Other */
+}
+
+.page {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: ;
+    color: var(--main-txt-cl);
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
+
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+}
+
+.header {
+    background-color: #FFFFFF;;
+}
+
+.header .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+
+    color: var(--main-txt-cl);
+}
+
+.logo {
+    text-decoration: none;
+    color: currentColor;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--black-txt-logo);
+}
+
+.logo-txt {
+color: var(--blue-txt-logo);
+}
+
+.header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+
+    color: var(--main-txt-cl);
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: var(--accent-txt-cl);
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    /* position: absolute; */
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.link.active {
+    color: var(--active-txt);
+}
+
+
