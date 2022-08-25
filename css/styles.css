@@ -1,6 +1,6 @@
 :root {
 /* Fonts */
---main-font: "Roboto Regular", sans-serif;
+--main-font: "Roboto", sans-serif;
 /* --secondary-font: "Raleway Bold", sans-serif; */
 /* Text colors */
 --main-txt-cl: #212121;
@@ -19,16 +19,15 @@
 
 .page {
     font-family: var(--main-font);
-    font-weight: ;
+    font-size: 14px;
     color: var(--main-txt-cl);
-    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
 }
 
 
 .link {
     text-decoration: none;
-    color: currentColor;
+    color: var(--main-txt-cl);    
 }
 
 .list {
@@ -40,19 +39,19 @@
     background-color: var(--other-color-wight);
 }
 
-.header .link {
+.header .group-link {
     font-style: normal;
     font-weight: 500;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
 
-    color: var(--main-txt-cl);
+    color: var(--par-txt-cl);
 }
 
 .logo {
     font-family: 'Raleway';
     text-decoration: none;
-    color: currentColor;
+    font-size: 26px;
     font-weight: 700;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
@@ -87,6 +86,7 @@
 
 .hero-title {
     font-weight: 900;
+    font-style: 44px;
     line-height: calc(60 / 44);
     text-align: center;
     letter-spacing: 0.06em;
@@ -96,16 +96,7 @@
 }
 
 .hero-btn {
-    /* position: absolute; */
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
-    
     background: var(--accent-bg-cl);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
     color: var(--other-color-wight);
 }
 
@@ -120,18 +111,71 @@
     color: var(--other-color-wight);
 }
 
-h2 {
+.title-two-in {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-cl);
+}
+
+.title-three-in-benefits {
     
     font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 14px;
+    line-height: 16px;
 
     letter-spacing: 0.06em;
 
     color: var(--main-txt-cl);
 }
 
-p {
+.title-three-in-our {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: 0.06em;
+
+    color: var(--main-txt-cl);
+}
+
+.title-two-portfolio {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-cl);
+}
+
+.main-par-in-benefits {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--par-txt-cl);
+}
+
+.main-par-in-our {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: 0.03em;
+
+    color: var(--par-txt-cl);
+}
+
+.main-par-portfolio {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -141,7 +185,7 @@ p {
     color: var(--par-txt-cl);
 }
 
-.par-footer {
+.par-footer .link {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -161,5 +205,3 @@ p {
 
     color: rgba(255, 255, 255, 0.6);
 }
-
-
