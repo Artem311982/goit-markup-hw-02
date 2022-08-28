@@ -36,10 +36,17 @@
 }
 
 .list-item-btn {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-cl);
 }
 
 .list-item-btn:hover,
@@ -53,12 +60,19 @@
 }
 
 .header .group-link {
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
 
     color: var(--par-txt-cl);
+}
+
+.group-link:hover,
+.group-link:focus,
+.group-link:visited {
+    color: var(--accent-txt-cl);
 }
 
 .logo {
@@ -88,8 +102,9 @@
     color: var(--main-txt-cl);
 }
 
-.header .link:hover,
-.header .link:focus {
+.link:hover,
+.link:focus,
+.link:visited {
     color: var(--accent-txt-cl);
 }
 
@@ -98,12 +113,14 @@
 }
 
 .hero-title {
-    font-weight: 900;
-    font-style: 44px;
-    line-height: calc(60 / 44);
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
     
     color: var(--other-color-wight);
 }
@@ -211,4 +228,8 @@
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
+}
+
+address {
+    font-style: normal;
 }
