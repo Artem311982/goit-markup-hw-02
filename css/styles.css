@@ -30,6 +30,10 @@
     color: var(--main-txt-cl);    
 }
 
+.link.current {
+    color: var(--accent-bg-cl);
+}
+
 .list {
     list-style: none;
     padding: 0;
@@ -40,9 +44,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-
+    line-height: calc(26 / 16);
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -70,8 +72,7 @@
 }
 
 .group-link:hover,
-.group-link:focus,
-.group-link:visited {
+.group-link:focus {
     color: var(--accent-txt-cl);
 }
 
@@ -103,8 +104,7 @@
 }
 
 .link:hover,
-.link:focus,
-.link:visited {
+.link:focus {
     color: var(--accent-txt-cl);
 }
 
@@ -116,7 +116,7 @@
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: calc(60 / 44);
 
 text-align: center;
 letter-spacing: 0.06em;
@@ -126,6 +126,14 @@ text-transform: uppercase;
 }
 
 .hero-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     background: var(--accent-bg-cl);
     color: var(--other-color-wight);
 }
@@ -139,7 +147,7 @@ text-transform: uppercase;
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: calc(42 / 36);
 
     letter-spacing: 0.03em;
 
@@ -161,7 +169,7 @@ text-transform: uppercase;
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(19 / 16);
 
     letter-spacing: 0.03em;
 
@@ -172,7 +180,7 @@ text-transform: uppercase;
 
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: calc(36 / 18);
 
     letter-spacing: 0.06em;
 
@@ -182,7 +190,7 @@ text-transform: uppercase;
 .main-par-in-benefits {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 / 14);
 
     letter-spacing: 0.03em;
 
@@ -192,7 +200,7 @@ text-transform: uppercase;
 .main-par-in-our {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(19 / 16);
 
     letter-spacing: 0.03em;
 
@@ -202,7 +210,7 @@ text-transform: uppercase;
 .main-par-portfolio {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30 / 16);
 
     letter-spacing: 0.03em;
 
@@ -212,7 +220,7 @@ text-transform: uppercase;
 .par-footer .link {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 / 14);
 
     letter-spacing: 0.03em;
 
@@ -223,7 +231,7 @@ text-transform: uppercase;
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 / 14);
 
     letter-spacing: 0.03em;
 
